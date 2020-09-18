@@ -1,6 +1,6 @@
 package com.qa.tests;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DemoTest {
@@ -41,6 +41,7 @@ public class DemoTest {
 		int b = 20;
 		
 		Assert.assertEquals(200, a*b);
+		
 	}
 
 
